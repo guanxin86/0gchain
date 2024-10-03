@@ -14,3 +14,7 @@ wget -O $HOME/.0gchain/config/addrbook.json https://server-5.itrocket.net/testne
 ```
 nano $HOME/0g-storage-node/run/config-testnet.toml
 ```
+### 查询日志
+```
+tail -f -n 100 ./0g-storage-node/run/log/zgs.log.$(date +"%Y-%m-%d")
+```
